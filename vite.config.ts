@@ -6,4 +6,3 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [tailwindcss(),react()],
 })
-console.log('Node version running Vite:', process.version);
